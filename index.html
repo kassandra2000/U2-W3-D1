@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>U2-W3-D1</title>
-    
-</head>
-<body>
+    <style>
+      form {
+        border: 1px solid black;
+      }
+      input {
+        margin: 10px 0;
+      }
+      label {
+        margin: 0 10px;
+      }
+      ul{
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="p-name">Pet Name:</label>
+      <input type="text" id="p-name" name="p-name" /><br />
+      <label for="owner-name">Owner Name:</label>
+      <input type="text" id="owner-name" name="owner-name" /><br />
+      <label for="species">Species:</label>
+      <input type="text" id="species" name="species" /><br />
+      <label for="breed">Breed:</label>
+      <input type="text" id="breed" name="breed" /><br />
+      <label for="button">Confirm pet:</label>
+      <input id="button" type="button" value="button" />
+    </form>
+    <div class="container">
+      <ul>
+        
+      </ul>
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
